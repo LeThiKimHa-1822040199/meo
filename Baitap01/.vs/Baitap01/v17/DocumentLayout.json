@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KIM H\u00C0\\source\\repos\\Baitap01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0259FFD-5400-4919-8475-73AB7FA74735}|Baitap01\\Baitap01.csproj|c:\\users\\kim h\u00E0\\source\\repos\\baitap01\\baitap01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0259FFD-5400-4919-8475-73AB7FA74735}|Baitap01\\Baitap01.csproj|solutionrelative:baitap01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0259FFD-5400-4919-8475-73AB7FA74735}|Baitap01\\Baitap01.csproj|c:\\users\\kim h\u00E0\\source\\repos\\baitap01\\baitap01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0259FFD-5400-4919-8475-73AB7FA74735}|Baitap01\\Baitap01.csproj|solutionrelative:baitap01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0259FFD-5400-4919-8475-73AB7FA74735}|Baitap01\\Baitap01.csproj|c:\\users\\kim h\u00E0\\source\\repos\\baitap01\\baitap01\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{B0259FFD-5400-4919-8475-73AB7FA74735}|Baitap01\\Baitap01.csproj|solutionrelative:baitap01\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KIM H\u00C0\\source\\repos\\Baitap01\\Baitap01\\Program.cs",
+              "RelativeDocumentMoniker": "Baitap01\\Program.cs",
+              "ToolTip": "C:\\Users\\KIM H\u00C0\\source\\repos\\Baitap01\\Baitap01\\Program.cs",
+              "RelativeToolTip": "Baitap01\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T08:29:33.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\KIM H\u00C0\\source\\repos\\Baitap01\\Baitap01\\.gitignore",
+              "RelativeDocumentMoniker": "Baitap01\\.gitignore",
+              "ToolTip": "C:\\Users\\KIM H\u00C0\\source\\repos\\Baitap01\\Baitap01\\.gitignore",
+              "RelativeToolTip": "Baitap01\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-24T08:01:23.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIM H\u00C0\\source\\repos\\Baitap01\\Baitap01\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Baitap01\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIM H\u00C0\\source\\repos\\Baitap01\\Baitap01\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Baitap01\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T07:29:14.459Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
