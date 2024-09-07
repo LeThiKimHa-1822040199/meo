@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\KIM H\u00C0\\Documents\\LapTrinhWeb\\meo\\BaiTap04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{836AB214-2F8B-4831-9577-13020A52FA50}|BaiTap04\\BaiTap04.csproj|c:\\users\\kim h\u00E0\\documents\\laptrinhweb\\meo\\baitap04\\baitap04\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{836AB214-2F8B-4831-9577-13020A52FA50}|BaiTap04\\BaiTap04.csproj|solutionrelative:baitap04\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836AB214-2F8B-4831-9577-13020A52FA50}|BaiTap04\\BaiTap04.csproj|c:\\users\\kim h\u00E0\\documents\\laptrinhweb\\meo\\baitap04\\baitap04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836AB214-2F8B-4831-9577-13020A52FA50}|BaiTap04\\BaiTap04.csproj|solutionrelative:baitap04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836AB214-2F8B-4831-9577-13020A52FA50}|BaiTap04\\BaiTap04.csproj|c:\\users\\kim h\u00E0\\documents\\laptrinhweb\\meo\\baitap04\\baitap04\\controllers\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{836AB214-2F8B-4831-9577-13020A52FA50}|BaiTap04\\BaiTap04.csproj|solutionrelative:baitap04\\controllers\\theloai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{836AB214-2F8B-4831-9577-13020A52FA50}|BaiTap04\\BaiTap04.csproj|c:\\users\\kim h\u00E0\\documents\\laptrinhweb\\meo\\baitap04\\baitap04\\views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{836AB214-2F8B-4831-9577-13020A52FA50}|BaiTap04\\BaiTap04.csproj|solutionrelative:baitap04\\views\\theloai\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIM H\u00C0\\Documents\\LapTrinhWeb\\meo\\BaiTap04\\BaiTap04\\Views\\TheLoai\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTap04\\Views\\TheLoai\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIM H\u00C0\\Documents\\LapTrinhWeb\\meo\\BaiTap04\\BaiTap04\\Views\\TheLoai\\Index.cshtml",
+              "RelativeToolTip": "BaiTap04\\Views\\TheLoai\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T07:18:18.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TheLoai.cs",
+              "DocumentMoniker": "C:\\Users\\KIM H\u00C0\\Documents\\LapTrinhWeb\\meo\\BaiTap04\\BaiTap04\\Controllers\\TheLoai.cs",
+              "RelativeDocumentMoniker": "BaiTap04\\Controllers\\TheLoai.cs",
+              "ToolTip": "C:\\Users\\KIM H\u00C0\\Documents\\LapTrinhWeb\\meo\\BaiTap04\\BaiTap04\\Controllers\\TheLoai.cs",
+              "RelativeToolTip": "BaiTap04\\Controllers\\TheLoai.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:17:37.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\KIM H\u00C0\\Documents\\LapTrinhWeb\\meo\\BaiTap04\\BaiTap04\\Program.cs",
+              "RelativeDocumentMoniker": "BaiTap04\\Program.cs",
+              "ToolTip": "C:\\Users\\KIM H\u00C0\\Documents\\LapTrinhWeb\\meo\\BaiTap04\\BaiTap04\\Program.cs",
+              "RelativeToolTip": "BaiTap04\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T07:16:24.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\KIM H\u00C0\\Documents\\LapTrinhWeb\\meo\\BaiTap04\\BaiTap04\\.gitignore",
+              "RelativeDocumentMoniker": "BaiTap04\\.gitignore",
+              "ToolTip": "C:\\Users\\KIM H\u00C0\\Documents\\LapTrinhWeb\\meo\\BaiTap04\\BaiTap04\\.gitignore",
+              "RelativeToolTip": "BaiTap04\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-04T07:12:54.49Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
