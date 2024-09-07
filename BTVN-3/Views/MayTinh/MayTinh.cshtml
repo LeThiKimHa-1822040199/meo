@@ -1,0 +1,16 @@
+﻿
+
+@{
+    ViewBag.Title = "Kết quả tính toán";
+}
+<h1>KimHa</h1>
+<h2>Kết quả tính toán</h2>
+
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
+else
+{
+    <p>Kết quả: @ViewBag.KetQua</p>
+}
