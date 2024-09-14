@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "BaiTap02";
+}
+
+@model SanPhamViewModel
+<h1>BaiTap2</h1>
+<head>
+    Sản Phẩm
+</head>
+<body>
+    <h1>@Model.TenSanPham</h1>
+    <p>Price:@Model.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</p>
+    <p>HinhAnh:@Model.HinhAnh</p>
+    <img src="@Model.ImageUrl" alt="@Model.TenSanPham" style="width:1000px;height:auto;" />
+</body>
+
