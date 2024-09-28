@@ -1,0 +1,36 @@
+﻿
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>               
+                <th> Tên Lớp Học </th>                
+                <th> Năm Nhập Học </th>
+                <th> Năm Ra Trường </th>
+                <th> Số Lượng Sinh Viên </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in ViewBag.LopHoc)
+            {
+                <tr>
+                    <td width="15%">@item.TenLopHoc</td>
+                    <td width="20%">@string.Format("{0:dd/MM/yyyy}", item.NamNhapHoc)</td>
+                    <td width="20%">@string.Format("{0:dd/MM/yyyy}", item.NamRaTruong)</td>
+                    <td width="15%">@item.SoLuongSinhVien</td>
+                    <td width="30%">
+                        <a asp-action="Edit" asp-route-id="@item.Id">
+                            Edit
+                        </a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">
+                            Delete
+                        </a>
+                        <a asp-action="Details" asp-route-id="@item.Id">
+                            Details
+                        </a> |
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <a asp-controller="LopHoc" asp-action="ThemMoi" class="btn btn-primary">Thêm mới</a>
+</div>
