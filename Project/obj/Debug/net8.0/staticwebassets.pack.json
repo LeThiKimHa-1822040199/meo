@@ -1,20 +1,160 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Project.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Project.bundle.scp.css"
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
     },
     {
       "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\about-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\b1.jpg",
+      "PackagePath": "staticwebassets\\images\\b1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\b2.jpg",
+      "PackagePath": "staticwebassets\\images\\b2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\c1.jpg",
+      "PackagePath": "staticwebassets\\images\\c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\c2.jpg",
+      "PackagePath": "staticwebassets\\images\\c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\client1.png",
+      "PackagePath": "staticwebassets\\images\\client1.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\client2.png",
+      "PackagePath": "staticwebassets\\images\\client2.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\facebook.png",
+      "PackagePath": "staticwebassets\\images\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\footer-img.jpg",
+      "PackagePath": "staticwebassets\\images\\footer-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\left-angle.png",
+      "PackagePath": "staticwebassets\\images\\left-angle.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\left-black-arrow.png",
+      "PackagePath": "staticwebassets\\images\\left-black-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\location.png",
+      "PackagePath": "staticwebassets\\images\\location.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\mail.png",
+      "PackagePath": "staticwebassets\\images\\mail.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\next-arrow.png",
+      "PackagePath": "staticwebassets\\images\\next-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\next-grey.png",
+      "PackagePath": "staticwebassets\\images\\next-grey.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\play-icon.png",
+      "PackagePath": "staticwebassets\\images\\play-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\prev-arrow.png",
+      "PackagePath": "staticwebassets\\images\\prev-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\prev-grey.png",
+      "PackagePath": "staticwebassets\\images\\prev-grey.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\quote.png",
+      "PackagePath": "staticwebassets\\images\\quote.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\right-angle.png",
+      "PackagePath": "staticwebassets\\images\\right-angle.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\right-black-arrow.png",
+      "PackagePath": "staticwebassets\\images\\right-black-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\telephone.png",
+      "PackagePath": "staticwebassets\\images\\telephone.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\images\\youtube.png",
+      "PackagePath": "staticwebassets\\images\\youtube.png"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
     },
     {
       "Id": "C:\\Users\\KIM HÀ\\Documents\\LapTrinhWeb\\meo\\Project\\wwwroot\\lib\\bootstrap\\LICENSE",
