@@ -32,14 +32,15 @@ namespace Project.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<IdentityUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
-        private readonly RoleManager<IdentityRole> _roleManager; 
+        private readonly RoleManager<IdentityRole> _roleManager;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             IUserStore<IdentityUser> userStore,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender,  RoleManager<IdentityRole> roleManager)
+            IEmailSender emailSender,
+            RoleManager<IdentityRole> roleManager)
 
         {
             _userManager = userManager;
@@ -104,13 +105,12 @@ namespace Project.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
             [Required]
-
-            public string name { get; set; }
-            public string address { get; set; }
-            public string role { get; set; }
+            public string Name { get; set; }
+            public string Address { get; set; }
+            public string Role { get; set; }
             [ValidateNever]
-            public IEnumerable<SelectListItem>RoleList { get; set; }
-        
+            public IEnumerable<SelectListItem> RoleList { get; set; }
+
         }
 
 
@@ -145,9 +145,18 @@ namespace Project.Areas.Identity.Pages.Account
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);
-
+                user.name = Input.Name;
+                user.address = Input.Address;
                 if (result.Succeeded)
                 {
+                    if (Input.Role == null)
+                    {
+                        await _userManager.AddToRoleAsync(user, "User");
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, Input.Role);
+                    }
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);
@@ -190,8 +199,8 @@ namespace Project.Areas.Identity.Pages.Account
             }
             catch
             {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
+                throw new InvalidOperationException($"Can't create an instance of '{nameof(ApplicationUser)}'. " +
+                    $"Ensure that '{nameof(ApplicationUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
                     $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }
@@ -206,3 +215,4 @@ namespace Project.Areas.Identity.Pages.Account
         }
     }
 }
+

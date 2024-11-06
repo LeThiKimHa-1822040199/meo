@@ -1,10 +1,9 @@
 ﻿@model GiohangViewModel
-    <style>
-        input[type="text"] {
-            width: 60px;
-        }
-    </style>
-<html>
+<style>
+    input[type="text"] {
+        width: 60px;
+    }
+</style>
 <body>
     <div class="container my-5">
         <div class="row">
@@ -39,20 +38,19 @@
                                             <a asp-action="Tang" asp-route-giohangId="@item.Id" button class="btn btn-sm btn-outline-secondary plus">+</a>
                                         </div>
                                     </td>
-                                    <td class="item-total">@item.ProductPrice.ToString("N0") vnđ</td>
+                                    <td class="item-total">  @(string.Format("{0:N0}", item.SanPham.price * item.Quantity)) </td>
                                     <td>
                                         <a asp-action="Xoa" asp-route-giohangId="@item.Id" button class="btn btn-sm btn-danger remove">Xóa</a>
 
                                     </td>
 
                                 </tr>
-                               
                             }
                         </tbody>
                     </table>
                 </div>
             </div>
-
+            @Html.AntiForgeryToken()
             <!-- Panel Thanh toán -->
             <div class="col-md-4">
                 <div class="card">
@@ -60,7 +58,8 @@
                         <h5 class="card-title">Thông tin thanh toán</h5>
 
                         <!-- Tổng cộng -->
-                        <p><strong>Tổng cộng:</strong> <span id="cart-total">@Model.TotalPrice</span></p>
+                        <p><strong>Tổng cộng:</strong> <span id="cart-total" class="text-danger"><b>@(string.Format("{0:N0}", Model.HoaDon.Total)) vnd</b></span></p>
+
 
                         <!-- Phương thức thanh toán -->
                         <h6>Phương thức thanh toán</h6>
@@ -90,64 +89,17 @@
                         </div>
 
                         <!-- Nút đặt hàng -->
-                        <button class="btn btn-success mt-3 w-100">Đặt hàng</button>
+                        <a class="btn btn-success mt-3 w-100" asp-action="ThanhToan">Thanh toán</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script>
-        // Tăng số lượng
-        document.querySelectorAll('.plus').forEach(button => {
-            button.addEventListener('click', function() {
-                let quantityInput = this.closest('td').querySelector('.quantity');
-                let currentQuantity = parseInt(quantityInput.value);
-                quantityInput.value = currentQuantity + 1;
-                updateRow(this);
-            });
-        });
 
-        // Giảm số lượng
-        document.querySelectorAll('.minus').forEach(button => {
-            button.addEventListener('click', function() {
-                let quantityInput = this.closest('td').querySelector('.quantity');
-                let currentQuantity = parseInt(quantityInput.value);
-                if (currentQuantity > 1) {
-                    quantityInput.value = currentQuantity - 1;
-                    updateRow(this);
-                }
-            });
-        });
 
-        // Xóa sản phẩm
-        document.querySelectorAll('.remove').forEach(button => {
-            button.addEventListener('click', function() {
-                this.closest('tr').remove();
-                updateTotal();
-            });
-        });
 
-        // Cập nhật thành tiền của từng hàng và tổng cộng
-        function updateRow(button) {
-            let row = button.closest('tr');
-            let price = parseInt(row.getAttribute('data-price'));
-            let quantity = parseInt(row.querySelector('.quantity').value);
-            let itemTotal = price * quantity;
-            row.querySelector('.item-total').textContent = new Intl.NumberFormat('vi-VN').format(itemTotal) + 'đ';
-            updateTotal();
-        }
-
-        // Cập nhật tổng cộng
-        function updateTotal() {
-            let total = 0;
-            document.querySelectorAll('tbody tr').forEach(row => {
-                let itemTotal = parseInt(row.querySelector('.item-total').textContent.replace(/[^0-9]/g, ''));
-                total += itemTotal;
-            });
-            document.getElementById('cart-total').textContent = new Intl.NumberFormat('vi-VN').format(total) + 'đ';
-        }
-    </script>
+    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>

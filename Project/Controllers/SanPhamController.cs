@@ -8,8 +8,8 @@ using Project.Models;
 namespace Project.Controllers
 {
 	[Area("Admin")]
-    [Authorize(Roles = "Admin")]
-    public class SanPhamController : Controller
+	[Authorize(Roles = "Admin")]
+	public class SanPhamController : Controller
 	{
 		private readonly ApplicationDbContext _db;
 
@@ -63,17 +63,17 @@ namespace Project.Controllers
 			}
 			return View();
 		}
-		[HttpPost]
-		public IActionResult Delete(int id)
-		{
-			var sanpham = _db.SanPham.FirstOrDefault(sp => sp.Id == id);
-			if(sanpham == null)
-			{
-				return NotFound();
-			}
-			_db.SanPham.Remove(sanpham);
-			_db.SaveChanges();
-			return Json(new {success=true});
-		}
-	}
+        [HttpPost]
+        public IActionResult DeleteConfirm(int id)
+        {
+            var theloai = _db.TheLoai.Find(id);
+            if (theloai == null)
+            {
+                return NotFound();
+            }
+            _db.TheLoai.Remove(theloai);
+            _db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+    }
 }
